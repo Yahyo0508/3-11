@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./tailwind.config.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-200 flex h-screen items-center justify-center transition-all">
+    <button class="flex justify-between w-28 px-2 font-bold py-2 relative bg-lime-400 rounded-3xl">
+        <span class="text-red-600">ON</span>
+        <span class="text-green-700">OFF</span>
+        <div class="rounded-full transition-all absolute bg-slate-700 top-1/2 left-1 w-9 h-9 -translate-y-1/2" id="circle"></div>
+    </button>
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
